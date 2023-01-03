@@ -1,38 +1,245 @@
-.App {
-  text-align: center;
+.collection {
+    font-family: 'Cinzel Decorative';
+    text-align: center;
+    background-color: rgba(235, 221, 221, 0.31);;
+    color: rgba(53, 39, 30, 0.81);
+    left: 550px;
+    height:190px;
+    padding-top: 60px;
+    margin-top: 100px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cards {
+    position: relative;
+    margin-top: 100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card-body {
+    border: none;
+    background-color: rgba(255, 253, 249, 1);
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.explore {
+    position: absolute;
+    text-align: right;
+    width: 130px;
+    bottom: 2px;
+    left: 160px;
+    height: 35px;
+    font-weight: 400;
+    padding-top: 5px;
+    padding-right: 8px;
+    color: #AC554D;
+    border-radius: 20px;
+    background-color: rgb(251, 234, 236);
 }
 
-.App-link {
-  color: #61dafb;
+.circle {
+    font-size: 25px;
+    margin-left: 2px;
+    margin-bottom: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.collection2 {
+    font-family: 'Cinzel Decorative';
+    text-align: center;
+    background-color: rgba(235, 221, 221, 0.31);;
+    color: rgba(53, 39, 30, 0.81);
+    left: 550px;
+    height:190px;
+    padding-top: 73px;
+    margin-top: 100px;
+}
+
+.icon2 {
+    position: absolute;
+    margin-top: 20px;
+}
+
+.truck {
+    position: absolute;
+    width: 216px;
+    left: 280px;
+    top: 40px;
+    font-size: 30px;
+}
+
+.icon21 {
+    position: absolute;
+    width: 216px;
+    left: 280px;
+    top: 82px;
+    font-family: 'Charter';
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.safe {
+    position: absolute;
+    width: 190px;
+    left: 645px;
+    top: 40px;
+    font-size: 30px;
+}
+
+.icon22 {
+    position: absolute;
+    width: 190px;
+    left: 645px;
+    top: 77px;
+    font-family: 'Charter';
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.credit {
+    position: absolute;
+    width: 265px;
+    left: 990px;
+    top: 40px;
+    font-size: 30px;
+}
+
+.icon23 {
+    position: absolute;
+    width: 265px;
+    left: 990px;
+    top: 77px;
+    font-family: 'Charter';
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.iconss {
+    margin-bottom: 200px;
+}
+
+.footer {
+height: 460px;
+margin-bottom: 5px;
+}
+
+
+.about {
+    margin-top: 60px;
+    position: absolute;
+    height: 108px;
+    left: 250px;
+}
+
+.delivery {
+    margin-top: 60px;
+    position: absolute;
+    height: 105px;
+    left: 530px;
+}
+
+.center {
+    margin-top: 60px;
+    position: absolute;
+    width: 182px;
+    height: 74px;
+    left: 880px;
+}
+
+.shops {
+    margin-top: 60px;
+    position: absolute;
+    height: 89px;
+    left: 1130px;
+}
+
+
+.follow {
+    position: absolute;
+left: 150px;
+right: 150px;
+margin-top: 230px;
+font-family: 'Charter';
+text-align: center;
+color: #5A4E47;
+}
+
+.wp {
+    margin-right: 30px;
+    font-size: 30px;
+    color: #5A4E47;
+}
+
+.tw {
+    margin-right: 30px;
+    font-size: 30px;
+    color: #5A4E47;
+}
+
+.ins {
+    margin-right: 30px;
+    font-size: 30px;
+    color: #5A4E47;
+}
+
+.ytb {
+    font-size: 30px;
+    color: #5A4E47;
+}
+
+.subscribe {
+    position: absolute;
+    width: 805px;
+    height: 112px;
+    left: 480px;
+    top: 2654px;
+}
+
+.input {
+    width: 350px;
+    height: 50px;
+    margin-left: 40px;
+    background: transparent;
+    border: solid 1px white;
+    border-radius: 15px;
+}
+
+.button {
+    width: 100px;
+    height: 50px;
+    margin-left: 5px;
+    color: #5A4E47;
+    background: white;
+    border: solid 1px white;
+    border-radius: 15px;
+}
+
+.footer2 {
+    height: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    left: 46.09%;
+    right: 44.61%;
+    font-family: 'Charter';
+    font-size: 10px;
+    text-align: center;
+    color: #5A4E47;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#store {
+    background-color: rgba(255, 253, 249, 1);
 }
